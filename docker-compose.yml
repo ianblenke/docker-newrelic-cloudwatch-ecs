@@ -1,0 +1,5 @@
+newrelic_cloudwatch:
+  build: newrelic_cloudwatch/
+  restart: "on-failure"
+  environment:
+    NEW_RELIC_LICENSE_KEY: "Your-40-character-license-key"
